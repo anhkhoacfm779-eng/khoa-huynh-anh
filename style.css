@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+    display: flex;
+    width: 700px; /* Cố định chiều rộng để giống tỉ lệ ảnh */
+    margin: 20px auto;
+    border: 1px solid #333; 
+    min-height: 350px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #eeeeee; /* Màu xám pha hồng */
+    border-right: 1px solid #999;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    padding: 8px 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+.sidebar li.active {
+    background-color: #808080;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 15px 30px;
+}
+
+.content h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.content ol {
+    margin-left: 45px;
+}
+
+.content li {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
