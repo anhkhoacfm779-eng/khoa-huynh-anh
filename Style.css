@@ -1,0 +1,33 @@
+/* Thiết lập cơ bản cho font chữ */
+body {
+  font-family: serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* 1. Thiết lập Flex Container (Khối màu xanh lam) */
+.flex-container {
+  display: flex;             /* Kích hoạt Flexbox */
+  background-color: #1e90ff; /* Màu xanh DodgerBlue */
+  padding: 10px;
+  gap: 10px;                 /* Tạo khoảng cách giữa các khối con */
+}
+
+/* 2. Thiết lập Flex Items (Các khối màu xám trắng) */
+.flex-item {
+  background-color: #f1f1f1;
+  padding: 20px 10px;        /* Padding trên-dưới và trái-phải */
+  font-size: 20px;
+  text-align: center;
+  flex: 1;                   /* Giúp các khối có chiều rộng bằng nhau */
+}
+
+/* Kiểu chữ cho các đoạn văn mô tả */
+p {
+  font-size: 14px;
+  margin-top: 15px;
+}
